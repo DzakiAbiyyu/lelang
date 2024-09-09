@@ -1,0 +1,131 @@
+header {
+    height: 50px;
+    padding-top: 10px;
+    text-align: start;
+    background: linear-gradient(to right, blue, rgb(197, 96, 96), blue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.responsive-div {
+    height: 300px;
+    width: cover;
+    display: flex;
+    /* Aktifkan Flexbox pada div */
+    justify-content: center;
+    /* Horizontal alignment */
+    align-items: center;
+    /* Vertical alignment */
+    text-align: center;
+    /* Menjaga teks tetap di tengah jika lebih dari satu baris */
+    background-color: lightblue;
+}
+/* Mengatur container */
+.container {
+    padding: 1rem; /* Padding di semua sisi */
+}
+
+/* Mengatur header */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* Jarak bawah header */
+    font-size: 1.25rem; /* Ukuran font header */
+    font-weight: bold; /* Membuat font tebal */
+}
+
+/* Mengatur container */
+.container {
+    padding: 1rem; /* Padding di semua sisi */
+}
+
+/* Mengatur header */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* Jarak bawah header */
+    font-size: 1.25rem; /* Ukuran font header */
+    font-weight: bold; /* Membuat font tebal */
+}
+
+/* Container untuk scroll */
+.scroll-container {
+    overflow-x: auto; /* Membolehkan scroll horizontal */
+    padding: 0 0.5rem; /* Padding kiri dan kanan */
+    white-space: nowrap; /* Mencegah wrapping elemen */
+}
+
+/* Mengatur kotak-kotak */
+.box-container {
+    display: flex; /* Menyusun box secara horizontal */
+    gap: 1.5rem; /* Jarak antara box */
+    flex-wrap: nowrap; /* Mencegah kotak membungkus ke baris berikutnya */
+}
+
+/* Kotak individu */
+.box {
+    background-color: #ffffff; /* Warna background */
+    color: white; /* Warna teks */
+    padding: 1rem; /* Padding di dalam kotak */
+    border-radius: 0.5rem; /* Radius sudut */
+    border: none;
+    transition: border 0.3s ease; /* Animasi transisi untuk border */
+    text-align: center; /* Teks berada di tengah horizontal */
+    align-items: center; /* Menyusun teks di tengah vertikal */
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: center; /* Menyusun teks di tengah horizontal */
+    width: 150px; /* Lebar kotak */
+    height: 150px; /* Tinggi kotak */
+    flex-shrink: 0; /* Mencegah kotak mengecil */
+}
+.box:hover {
+    border: 5px solid rgb(197, 96, 96);
+}
+
+/* Hapus scrollbar */
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Menyembunyikan scrollbar di Safari dan Chrome */
+}
+     
+
+.bg-body-tertiary {
+    background-color: #f5a51a !important;
+}
+.navbar-brand {
+    align-items: start;
+}
+ .navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid a{
+    color: #070707; /* Mengubah warna teks */
+    font-size: 20px;
+    font-family: cambira;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+}
+nav a.nav-link:hover, 
+nav .daftar a:hover {
+    color: white; /* Warna teks saat di-hover */
+    text-decoration: underline;
+    
+}
+@media (max-width: 992px) { /* Atur gaya ketika layar lebih kecil dari 992px */
+    .daftar {
+        display: none; /* Sembunyikan daftar saat layar kecil */
+    }
+    .navbar-collapse {
+        justify-content: center; /* Pusatkan elemen saat menu terbuka */
+    }
+}
+
+
+footer {
+    margin-top: 50px;
+}
