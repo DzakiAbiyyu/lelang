@@ -1,4 +1,4 @@
-<div class="countainer">
+<div class="container">
     <!-- header -->
     <header>
         <div class="head">

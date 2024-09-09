@@ -92,18 +92,13 @@ header {
 .bg-body-tertiary {
     background-color: #f5a51a !important;
 }
-.navbar-brand {
+/* .navbar-brand {
     align-items: start;
 }
- .navbar-nav{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-}
+ 
 
 .container-fluid a{
-    color: #070707; /* Mengubah warna teks */
+    color: #070707; 
     font-size: 20px;
     font-family: cambira;
     display: inline-block;
@@ -112,18 +107,15 @@ header {
 }
 nav a.nav-link:hover, 
 nav .daftar a:hover {
-    color: white; /* Warna teks saat di-hover */
+    color: white; 
     text-decoration: underline;
     
-}
-@media (max-width: 992px) { /* Atur gaya ketika layar lebih kecil dari 992px */
+} */
+/* @media (max-width: 992px) { Atur gaya ketika layar lebih kecil dari 992px
     .daftar {
-        display: none; /* Sembunyikan daftar saat layar kecil */
+        display: none; Sembunyikan daftar saat layar kecil
     }
-    .navbar-collapse {
-        justify-content: center; /* Pusatkan elemen saat menu terbuka */
-    }
-}
+} */
 
 
 footer {
